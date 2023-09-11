@@ -1,5 +1,7 @@
 let chooseColor = document.querySelectorAll('.choose__color-btn');
 let contentItem = document.querySelectorAll('.content-item');
+screen.lockOrientation("landscape");
+
 
 chooseColor.forEach(function(element) {
     element.addEventListener('click', open)
