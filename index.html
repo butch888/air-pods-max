@@ -10,8 +10,14 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/style.css">
+  <script type="text/javascript">
+    function changeOrientation(event) {
+        alert("Rotate");
+        event.preventDefault();
+    }
+    </script>
 </head>
-<body>
+<body onorientationchange="changeOrientation(event)">
   
 <header class="header">
   <div class="container">
